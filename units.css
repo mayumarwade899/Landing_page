@@ -1,0 +1,57 @@
+body {
+    height: 2000px;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
+
+
+/* .inner {
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+} */
+
+/* It will take 50% space from the parent i.e. from "box" */
+/* .inner {
+    height: 50%;
+    width: 50%;
+    background-color: royalblue;
+} */
+
+.inner {
+    height: 50vh;
+    width: 50vw;
+    background-color: royalblue;
+}
+
+/* h1 {
+    font-size: 7vh;
+} */
+
+/* Vmax - whichever the viewport is maximum (landscape or potrait) */
+/* Vmin - same with min */
+h1 {
+    /* font-size: 7vmax; */
+    font-size: 7vmin;
+}
+
+
+.parent {
+    background-color: #dadada;
+    width: 40%;
+    font-size: 30px; 
+}
+
+h2 {
+    font-size: 1em;
+}
+h3 {
+    font-size: 2em;
+}
+h4 {
+    font-size: 1.5em;
+}
